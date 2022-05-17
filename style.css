@@ -1,0 +1,32 @@
+.mybutton{
+    background-color: rgb(49, 129, 49) !important;
+    border-color: rgb(45, 119, 45) !important;
+}
+.mybutton_space{
+    width: 0%;
+}
+
+.herramienta{
+    color: black;
+}
+
+.down_arrow{
+    color: black;
+}
+
+/*quede en cambiar la flecha a negro*/
+
+.instabg{
+    background-color: rgb(218, 218, 218) !important ;
+    margin: 1%;
+    padding: 10%;
+
+}
+
+.post{
+    background-color: rgb(255, 253, 253);
+    padding: 30%;
+    
+}
+
+
