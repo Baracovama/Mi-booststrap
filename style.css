@@ -11,22 +11,45 @@
 }
 
 .down_arrow{
-    color: black;
+    color: black !important;
 }
 
 /*quede en cambiar la flecha a negro*/
 
-.instabg{
-    background-color: rgb(218, 218, 218) !important ;
-    margin: 1%;
-    padding: 10%;
-
+.bg-ig{
+    background-color: rgb(224, 224, 224);
 }
 
-.post{
-    background-color: rgb(255, 253, 253);
-    padding: 30%;
-    
+.post-ig{
+    padding: 2%;
 }
 
+.img-fluid{
+    max-height: 800px !important;
+    max-width: 100% !important;
+}
 
+span{
+    padding: 10px;
+    color: rgb(134, 134, 134);
+    text-align: left;
+}
+p{
+    color: black;
+}
+
+.likes-post,.comment-post, .share-post, .save-post{
+    color: black !important;
+    border: none !important;
+}
+
+.comentario-post{
+    float: left !important;
+}
+
+.card-img-top{
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    min-height: 500px;
+}
