@@ -1,55 +1,115 @@
-.mybutton{
-    background-color: rgb(49, 129, 49) !important;
-    border-color: rgb(45, 119, 45) !important;
-}
-.mybutton_space{
-    width: 0%;
+.body {
+    background-color: #fafafa;
 }
 
-.herramienta{
-    color: black;
+ul>li>button.active{
+    background-color: slategray !important;
+}
+#navbarDarkDropdownMenuLink{
+    color: grey;
+}
+.nav-feed {
+    border-bottom: none; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
 }
 
-.down_arrow{
-    color: black !important;
+.color{
+    background-color: grey !important;
 }
 
-/*quede en cambiar la flecha a negro*/
-
-.bg-ig{
-    background-color: rgb(224, 224, 224);
+.nav-link-1 {
+    color: #495057;
+    border-color: gray #fff #fff;
+    border-top-right-radius: .0rem;
+    border-top-left-radius: .0rem;
+    font-size: 12px;
+    font-weight: 600;
 }
 
-.post-ig{
-    padding: 2%;
+.nav-link-2 {
+    color: #a2a8af;
+    border-color: #fff #fff #fff;
+    border-top-right-radius: .0rem ;
+    border-top-left-radius: .0rem ;
+    font-size: 12px;
+    font-weight: 600;
 }
 
-.img-fluid{
-    max-height: 800px !important;
-    max-width: 100% !important;
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: .0rem ;
 }
 
-span{
-    padding: 10px;
-    color: rgb(134, 134, 134);
+.card .card-img, .card-img-top {
+    border-top-left-radius: 0rem ;
+    border-top-right-radius: 0rem;
+}
+
+.icons {
+    padding: 4%; 
+    font-size: 25px;
+}
+
+
+p{
+    font-size: small;
+}
+
+#lado{
+    margin-left: 300px;
+}
+
+.post{
+    background: white;
+    width: 400px;
+    height: 750px;
+    margin: auto;
+}
+
+.post-header{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
+}
+
+.post-header img{
+    width: 30px;
+    height: 30px;
+}
+
+.post-header h6{
+    width: 250px;
+    margin: 0px;
+}
+
+.post-header p{
+    width: 50px;
+	height: 50px;
+    padding-left: 10px;
+}
+
+.post-img img{
+    width: 400px;
+    height: 450px;
+}
+
+.people-likes{
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: left;
 }
-p{
-    color: black;
+
+.texto{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
 }
 
-.likes-post,.comment-post, .share-post, .save-post{
-    color: black !important;
-    border: none !important;
+.post-body{
+    padding: 10px 10px 10px 10px;
 }
 
-.comentario-post{
-    float: left !important;
-}
-
-.card-img-top{
-    max-width: 500px;
-    max-height: 500px;
-    min-width: 500px;
-    min-height: 500px;
-}
